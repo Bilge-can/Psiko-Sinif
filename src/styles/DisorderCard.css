@@ -1,0 +1,43 @@
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    width: 260px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-body h3 {
+    margin-top: 0;
+    color: #7953e6;
+    font-size: 1.3rem;
+}
+
+.category {
+    color: #070707;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.short {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.disorder-list a {
+    text-decoration: none;
+    color: #4a3fb3; /* morumsu mavi ton */
+    font-weight: 600;
+}
+
+.disorder-list a:hover {
+    color: #6a5ae0;
+    text-decoration: none; /* emin ol, hover’da da çizgi çıkmasın */
+}
+

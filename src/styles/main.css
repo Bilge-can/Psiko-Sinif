@@ -1,0 +1,12 @@
+body {
+    font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    background: #5a258e;
+    color: #1e293b;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}

@@ -1,0 +1,17 @@
+/* src/styles/DisorderDetail.css */
+.detail-page {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #bdade6;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    color: #333;
+}
+.detail-page h2 { color: #2e3a59; margin-bottom: 10px; }
+.detail-page h3 { color: #5a258e; margin-bottom: 20px; }
+.detail-page h4 { color: #411565; margin-bottom: 20px; }
+.detail-page h5 { color: #070707; margin-bottom: 20px; }
+.detail-page h6 { color: #070707; margin-bottom: 20px; }
+
+

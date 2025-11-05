@@ -1,0 +1,83 @@
+.about-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px 30px;
+    background-color: #bdade6;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    line-height: 1.7;
+    font-family: "Inter", "Helvetica", sans-serif;
+    color: #5a258e;
+}
+
+.about-container h1 {
+    font-size: 2rem;
+    color: #2d2f31;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-container h2 {
+    font-size: 1.4rem;
+    color: #444;
+    margin-top: 25px;
+    border-left: 4px solid #411565;
+    padding-left: 10px;
+}
+
+.about-container p {
+    font-size: 1.05rem;
+    color: #555;
+    margin: 10px 0 20px;
+}
+
+.about-container .highlight {
+    color: #411565;
+    font-weight: 600;
+}
+
+.about-container .team-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.about-container .team-section img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-container .team-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.about-container .quote {
+    margin-top: 40px;
+    font-style: italic;
+    text-align: center;
+    color: #666;
+    background-color: #f8faff;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #411565;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        margin: 30px 15px;
+        padding: 25px;
+    }
+
+    .about-container h1 {
+        font-size: 1.6rem;
+    }
+
+    .about-container p {
+        font-size: 1rem;
+    }
+}
