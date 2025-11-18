@@ -5,6 +5,7 @@ import App from "./App";
 import "./index.css";
 import 'rsuite/dist/rsuite.min.css';
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <BrowserRouter>
