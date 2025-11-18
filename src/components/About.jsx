@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/About.css";
+import { Avatar, AvatarGroup } from "rsuite";
 
 export default function About() {
     return (
@@ -8,8 +9,7 @@ export default function About() {
             <p>
                 <span className="highlight">PsikoSınıf</span>, psikolojik rahatsızlıkları,
                 bozuklukları ve zihinsel süreçleri sade bir dille anlatmak için
-                oluşturulmuş bir platformdur. Amacımız; bilgilendirici, anlaşılır ve
-                güvenilir içerikler sunmaktır.
+                oluşturulmuş bir platformdur.
             </p>
 
             <h2>Vizyonumuz</h2>
@@ -26,12 +26,29 @@ export default function About() {
 
             <div className="team-section">
                 <h2>Ekibimiz</h2>
-                <img src="/images/team1.jpg" alt="Ekip Üyesi 1" />
-                <img src="/images/team2.jpg" alt="Ekip Üyesi 2" />
-            </div>
 
-            <div className="quote">
-                “Kendini anlamak, dünyayı anlamanın ilk adımıdır.” 💭
+                <div className="avatars-wrapper">
+                    <AvatarGroup spacing={16}>
+                        <Avatar
+                            color="violet"
+                            bordered
+                            circle src="https://i.pravatar.cc/150?u=4"
+                            size="lg"
+                            className="team-avatar"
+                        />
+                        <Avatar
+                            color="violet"
+                            bordered
+                            circle src="https://i.pravatar.cc/150?u=1"
+                            size="lg"
+                            className="team-avatar"
+                        />
+                    </AvatarGroup>
+                </div>
+
+                <div className="quote">
+                    “Kendini anlamak, dünyayı anlamanın ilk adımıdır.” 💭
+                </div>
             </div>
         </div>
     );

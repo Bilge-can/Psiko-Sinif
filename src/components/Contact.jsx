@@ -31,6 +31,7 @@ export default function Contact() {
                 <button type="submit">Gönder</button>
             </form>
             </Inputs>
+
             <div className="contact-info">
                 <p>
                     E-posta: <a href="mailto:info@psikosinif.com">info@psikosinif.com</a>
